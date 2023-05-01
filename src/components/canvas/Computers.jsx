@@ -4,6 +4,7 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
+// It turned into a queen of swords instead of a pc
 const Computers = ({ isMobile }) => {
   const computer = useGLTF('./the_queen_of_swords/scene.gltf');
 
