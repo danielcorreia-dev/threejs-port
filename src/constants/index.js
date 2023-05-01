@@ -27,7 +27,7 @@ import {
   cup,
   computer,
   battery,
-
+  github,
 } from '../assets';
 
 export const navLinks = [
@@ -106,5 +106,19 @@ const technologies = [
   },
 ];
 
+const members = [
+  {
+    name: 'Daniel Correia',
+    github: 'https://github.com/danielcorreia-dev',
+  },
+  {
+    name: 'Aldo Nunes',
+    github: 'https://github.com/AldoNunes001',
+  },
+  {
+    name: 'Mateus Countinho',
+    github: 'https://github.com/Meflus',
+  },
+];
 
-export { services, technologies };
+export { services, technologies, members };
