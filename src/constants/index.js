@@ -24,6 +24,10 @@ import {
   tripguide,
   threejs,
   nextjs,
+  cup,
+  computer,
+  battery,
+
 } from '../assets';
 
 export const navLinks = [
@@ -44,19 +48,19 @@ export const navLinks = [
 const services = [
   {
     title: 'Web Developer',
-    icon: web,
-  },
-  {
-    title: 'React Native Developer',
     icon: mobile,
   },
   {
     title: 'Backend Developer',
-    icon: backend,
+    icon: battery,
   },
   {
     title: 'Content Creator',
-    icon: creator,
+    icon: computer,
+  },
+  {
+    title: 'Vim Lover',
+    icon: cup,
   },
 ];
 

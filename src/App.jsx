@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
 import { Navbar, Hero, About, Tech, Contact, StarsCanvas } from './components';
-import { Suspense } from 'react';
 import Project from './components/Project';
 
 const App = () => {

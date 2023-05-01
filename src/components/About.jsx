@@ -13,15 +13,16 @@ const ServiceCard = ({ index, title, icon }) => {
         variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
         className="w-full bg-gradient-to-r from-amber-200 to-yellow-500 p-[2px] rounded-3xl shadow-card"
       >
-        <div 
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450
-        }}
-        className='bg-tertiary rounded-[20px] min-h-[280px] py-5 px-12 flex justify-evenly items-center flex-col'>
-        <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
-        <h3 className='font-bold text-xl text-center'>{title}</h3>
+        <div
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className="bg-tertiary rounded-[20px] min-h-[280px] py-5 px-12 flex justify-evenly items-center flex-col"
+        >
+          <img src={icon} alt={title} className="w-24 h-24 object-contain" />
+          <h3 className="font-bold text-xl text-center">{title}</h3>
         </div>
       </motion.div>
     </Tilt>
@@ -52,4 +53,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'About');
+export default SectionWrapper(About, 'about');
